@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>1st Step</title>
+    <script src="jquery-3.1.1.js"></script>
+    <script src="action.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="wrapper">
+    <div  class="pages">
+        <div id="page1" class="page">1</div>
+        <div id="page2" class="page">2</div>
+        <div id="page3" class="page">3</div>
+        <div id="page4" class="page">4</div>
+    </div>
+    <div class="main-content-1">
+        <p>1. Введите имя и email</p>
+        <input type="text" class="name inputs" placeholder="Имя" name="email" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,3}$">
+        <br>
+        <input type="text" class="email inputs" placeholder="Email">
+    </div>
+    <div class="main-content-2">
+        <p>2. Выберите страну и город</p>
+        <select class="country inputs"></select>
+        <br>
+        <select class="city inputs"></select>
+    </div>
+    <div class="main-content-3">
+        <p>3. Отметьте социальные сети</p>
+        <div class="social-container" id="first">
+            <input type="checkbox" id="fb" class="social"><label for="fb"> Facebook</label>
+            <input type="text" class="social-input inputs" id="fb1" placeholder="Ваша страница в Facebook">
+        </div>
+
+        <div class="social-container">
+            <input type="checkbox" id="vk" class="social"><label for="vk"> Вконтакте</label>
+            <input type="text" class="social-input inputs" id="vk1" placeholder="Ваша страница в VK">
+        </div>
+
+        <div class="social-container">
+            <input type="checkbox" id="tw" class="social"><label for="tw"> Twitter</label>
+            <input type="text" class="social-input inputs" id="tw1" placeholder="Ваша страница в Twitter">
+        </div>
+
+        <div class="social-container">
+            <input type="checkbox" id="od" class="social"><label for="od"> Одноклассники</label>
+            <input type="text" class="social-input inputs" id="od1" placeholder="Ваша страница в Одноклассники">
+        </div>
+    </div>
+    <div class="main-content-4">
+        <p>4. Выберите любимого котика</p>
+        <div class="animals-list">
+            <div class="animal">
+                <img src="images/cat1.jpg" alt="Котик 1" class="animal-image">
+            </div>
+            <div class="animal">
+                <img src="images/cat2.jpg" alt="Котик 2" class="animal-image">
+            </div>
+            <div class="animal">
+                <img src="images/cat3.jpg" alt="Котик 3" class="animal-image">
+            </div>
+            <div class="animal">
+                <img src="images/dog4.jpg" alt="Собакен 1" class="animal-image">
+            </div>
+        </div>
+    </div>
+    <div class="final-content">
+        <div class="block-left">
+            <p  class="final-name"></p>
+            <p class="final-email">alex@lun.ua</p>
+            <p class="final-adress">Киев, Украина</p>
+            <div class="block-social">
+                <!--<p><span>Facebook:</span> fb.com/alex</p>-->
+                <!--<p><span>Twitter:</span> twitter.com/alex</p>-->
+            </div>
+        </div>
+        <div class="block-right">
+            <img class="final-image">
+        </div>
+    </div>
+    <div class="try-again">Пройти заново</div>
+    <div class="next-prev">
+        <div class="prev"><span class="pr">&#10094; Предыдущий</span></div>
+        <div class="next"><span class="nx">Следующий &#10095;</span></div>
+        <div class="finish"><span class="fn">Завершить</span></div>
+    </div>
+</div>
+</body>
+</html>

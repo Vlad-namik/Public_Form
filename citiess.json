@@ -1,0 +1,23 @@
+{
+    "1": {"country": 1, "name": "Kyiv"},
+    "2": {"country": 2, "name": "Munich"},
+    "3": {"country": 3, "name": "Paris"},
+    "4": {"country": 4, "name": "Madrid"},
+    "5": {"country": 5, "name": "Stockholm"},
+    "6": {"country": 6, "name": "Houston"},
+    "7": {"country": 7, "name": "Montreal"},
+    "8": {"country": 8, "name": "Кишинев"},
+    "9": {"country": 9, "name": "Minsk"},
+    "10": {"country": 10, "name": "Warsaw"},
+    "100": {"country": 1, "name": "Львов"},
+    "101": {"country": 1, "name": "Николаев"},
+    "103": {"country": 1, "name": "Переяслав-Хмельницкий"},
+    "104": {"country": 1, "name": "Каменец-Подольский"},
+    "105": {"country": 1, "name": "Donetsk"},
+    "106": {"country": 1, "name": "Kharkov"},
+    "107": {"country": 1, "name": "Луцк"},
+    "108": {"country": 1, "name": "Poltava"},
+    "109": {"country": 1, "name": "Черновцы"},
+    "299": {"country": 1, "name": "Чернигов"},
+    "333": {"country": 1, "name": "Чернигов"}
+}
